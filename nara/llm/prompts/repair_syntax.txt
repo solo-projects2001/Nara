@@ -1,0 +1,12 @@
+You are repairing a single Python file.
+
+Failure: syntax_error
+
+Rules:
+- Output ONLY valid Python code
+- Do NOT explain
+- Do NOT change behavior
+- Fix syntax only
+
+Broken code:
+{{CODE}}

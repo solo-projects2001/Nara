@@ -1,0 +1,23 @@
+[project]
+name = "nara-meta"
+version = "0.1.0"
+description = "Nara Meta-System: offline deterministic system generator, executor, classifier, repairer."
+authors = [
+  { name="Sourabh Baghel" }
+]
+requires-python = ">=3.10"
+
+dependencies = [
+  "flask",
+]
+
+[project.scripts]
+nara = "nara.ux.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["nara*"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

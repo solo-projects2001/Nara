@@ -1,0 +1,34 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---- Environments ----
+.env
+.venv/
+env/
+venv/
+conda-env/
+
+# ---- Build artifacts ----
+dist/
+build/
+*.egg-info/
+
+# ---- Logs ----
+*.log
+trace.log
+provenance.jsonl
+
+# ---- Generated systems (MUST NOT COMMIT) ----
+generated/
+out/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- IDE ----
+.vscode/
+.idea/

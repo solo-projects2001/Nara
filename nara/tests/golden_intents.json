@@ -1,0 +1,14 @@
+[
+  {
+    "intent": "Design a compliance inspection system for config files",
+    "expected_domain": "analysis"
+  },
+  {
+    "intent": "Design a log monitoring pipeline that aggregates metrics",
+    "expected_domain": "interpreted"
+  },
+  {
+    "intent": "Design a minimal 2D game loop system with physics and graphics",
+    "expected_domain": "interpreted"
+  }
+]

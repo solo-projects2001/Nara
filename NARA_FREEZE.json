@@ -1,0 +1,17 @@
+{
+  "name": "Nara",
+  "version": "1.0.0",
+  "status": "frozen",
+  "guarantees": [
+    "deterministic",
+    "offline_only",
+    "auditable",
+    "enterprise_safe",
+    "control_layer_only"
+  ],
+  "limitations": [
+    "no cloud execution",
+    "no end-user UX",
+    "no autonomous self-expansion"
+  ]
+}

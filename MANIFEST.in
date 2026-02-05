@@ -1,0 +1,2 @@
+recursive-include nara/llm/prompts *.txt
+recursive-include nara/generation *.py

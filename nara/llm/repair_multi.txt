@@ -1,0 +1,12 @@
+You are repairing a single Python file.
+
+Failure: {{FAILURE_TYPE}}
+
+Rules:
+- Output ONLY valid Python code
+- No explanations
+- Preserve intent
+- Provide ONE repair candidate only
+
+Code:
+{{CODE}}

@@ -1,0 +1,94 @@
+{
+  "interpreted": {
+    "enabled": true,
+    "subdomains": [
+      "python-cpython",
+      "python-pypy",
+      "javascript-node",
+      "javascript-deno",
+      "javascript-bun",
+      "ruby-mri",
+      "lua",
+      "php",
+      "perl",
+      "r"
+    ],
+    "features": ["execute", "analyze", "repair", "validate"]
+  },
+  "compiled": {
+    "enabled": false,
+    "subdomains": ["c", "cpp", "rust", "go", "zig", "nim", "d"],
+    "features": ["execute", "analyze", "validate"]
+  },
+  "shell": {
+    "enabled": true,
+    "subdomains": ["bash", "zsh", "powershell", "batch"],
+    "features": ["execute", "analyze", "repair", "validate"]
+  },
+  "data": {
+    "enabled": true,
+    "subdomains": ["sql", "nosql", "graph"],
+    "features": ["execute", "analyze", "repair", "validate"]
+  },
+  "jvm": {
+    "enabled": false,
+    "subdomains": ["java", "kotlin", "scala", "clojure", "groovy"],
+    "features": []
+  },
+  "dotnet": {
+    "enabled": false,
+    "subdomains": ["csharp", "fsharp", "vbnet"],
+    "features": []
+  },
+  "systems": {
+    "enabled": false,
+    "subdomains": ["assembly", "wasm", "embedded"],
+    "features": []
+  },
+  "build": {
+    "enabled": false,
+    "subdomains": ["make", "cmake", "bazel", "yaml", "json", "toml"],
+    "features": []
+  },
+  "scientific": {
+    "enabled": false,
+    "subdomains": ["matlab", "octave", "julia", "fortran"],
+    "features": []
+  },
+  "functional": {
+    "enabled": false,
+    "subdomains": ["haskell", "ocaml", "lisp", "scheme"],
+    "features": []
+  },
+  "gpu": {
+    "enabled": false,
+    "subdomains": ["cuda", "opencl", "metal"],
+    "features": []
+  },
+  "virtualized": {
+    "enabled": false,
+    "subdomains": ["docker", "podman", "firecracker"],
+    "features": []
+  },
+  "document": {
+    "enabled": false,
+    "subdomains": ["markdown", "latex", "mermaid", "plantuml"],
+    "features": []
+  },
+  "tools": {
+    "enabled": false,
+    "subdomains": ["ffmpeg", "imagemagick", "curl", "radare2"],
+    "features": []
+  },
+  "ai": {
+    "enabled": false,
+    "subdomains": [
+      "pytorch-cpu",
+      "tensorflow-cpu",
+      "onnx-runtime",
+      "llama-cpp",
+      "ollama"
+    ],
+    "features": []
+  }
+}
